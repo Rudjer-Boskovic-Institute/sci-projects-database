@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import mechanize
+from BeautifulSoup import BeautifulSoup
 
 br = mechanize.Browser()
 #br.set_all_readonly(False)
@@ -28,11 +29,28 @@ print link1.url
 
 response = br.open(urlhost + '/' + link1.url)
 
-link2 = br.find_link(url_regex='page',nr=1)
-	
+link2 = br.find_link(url_regex='id=78&pid=',nr=1)
 
+
+response = br.open(urlhost + '/' + link2.url)
+
+html_doc = response.read()
+
+
+soup = BeautifulSoup(html_doc)
+
+print soup.getText()
+
+print soup.findAll("div", class_='page_content')
+
+
+
+
+
+#################################################################################
 
 #help(br.links)
+
 
 # br.follow_link takes either a Link object or a keyword arg (such as nr=0).
 
@@ -47,3 +65,7 @@ link2 = br.find_link(url_regex='page',nr=1)
 # br.find_link(url='...') returns the Link object whose url exactly equals the given url.
 
 # br.find_link, br.links, br.follow_link, br.click_link all accept the same keywords. Run help(br.find_link) to see documentation on those keywords.
+
+
+# response = br.open(url)
+# print response.read() 
