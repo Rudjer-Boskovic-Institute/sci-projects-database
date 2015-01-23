@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import re
 import pprint
 import mechanize
 from bs4 import BeautifulSoup
@@ -76,16 +77,40 @@ pval = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > t
 project_val = pval[0].findAll(text=True)
 print str(project_val) + "\n"
 
+print project_val[0]
 
-for node in soup.findAll('strong'): 
-  if node.next.endswith('Rok:'):
-#texts.append(node.next)
-    pprint.pprint(node.next)
-
-
+# REGEX PART
 
 pdet = soup.select('.page_content')
-project_det = pdet[0].findAll(text=True)
+project_det = pdet[0]
+
+ustanova = re.search("<strong>Ustanova:<\/strong><br\/>(.*?)<br/>", str(project_det))
+print ustanova.groups()[0]
+
+zn_podrucja = re.search("<strong>Znanstvena\ podru.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
+print zn_podrucja.groups()[0]
+
+zn_polja = re.search("<strong>Znanstvena\ polja:<\/strong><br\/>(.*?)<br/>", str(project_det))
+print zn_polja.groups()[0]
+
+suradnici = re.search("<strong>Suradnici:<\/strong><br\/>(.*?)<br/>", str(project_det))
+print suradnici.groups()[0]
+
+sazetak = re.search("<strong>Sa.*?ak:<\/strong><br\/>(.*?)<", str(project_det), re.DOTALL)
+print sazetak.groups()[0]
+
+keyw = re.search("<strong>Klju.*?ne\ rije.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
+print keyw.groups()[0]
+
+
+
+
+# FIND HACKS
+
+#for node in soup.findAll('strong'): 
+#  if node.next.endswith('Rok:'):
+#texts.append(node.next)
+#    pprint.pprint(node.next)
 
 
 #output = []
@@ -97,12 +122,7 @@ project_det = pdet[0].findAll(text=True)
 
 # REGEX
 
-# dataPattern = re.compile(r"<td>[a-zA-Z]+</td>... etc.")
-# match = dataPattern.find(htmlstring)
-# field1 = match.group(1)
-# field2 = match.group(2)
-
-
+#ustanova = re.search("<strong>Ustanova:<\/strong><br\/>(.*?)<br/>", str(project_det))
 
 #help(br.links)
 
