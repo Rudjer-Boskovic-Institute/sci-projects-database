@@ -77,6 +77,12 @@ project_val = pval[0].findAll(text=True)
 print str(project_val) + "\n"
 
 
+for node in soup.findAll('strong'): 
+  if node.next.endswith('Rok:'):
+#texts.append(node.next)
+    pprint.pprint(node.next)
+
+
 
 pdet = soup.select('.page_content')
 project_det = pdet[0].findAll(text=True)
@@ -88,6 +94,15 @@ project_det = pdet[0].findAll(text=True)
 #pprint.pprint(output)
 
 #################################################################################
+
+# REGEX
+
+# dataPattern = re.compile(r"<td>[a-zA-Z]+</td>... etc.")
+# match = dataPattern.find(htmlstring)
+# field1 = match.group(1)
+# field2 = match.group(2)
+
+
 
 #help(br.links)
 
