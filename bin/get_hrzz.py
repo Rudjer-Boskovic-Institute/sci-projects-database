@@ -2,8 +2,16 @@
 
 import re
 import pprint
+import codecs
 import mechanize
 from bs4 import BeautifulSoup
+import sys  
+
+reload(sys)  
+sys.setdefaultencoding('utf8')
+
+#f = open('/tmp/scrape','wb')
+f = codecs.open('/tmp/scrape2', encoding='utf-8', mode='w')
 
 br = mechanize.Browser()
 #br.set_all_readonly(False)
@@ -43,40 +51,32 @@ soup = BeautifulSoup(html_doc)
 
 ptitle = soup.select('.page_content > strong > span')
 project_title = ptitle[0].findAll(text=True)
-print str(project_title) + "\n"
 
 phead = soup.select('.page_content > table:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)')
 project_head = phead[0].findAll(text=True)
-print str(project_head) + "\n"
 
 ptype = soup.select('.page_content > table:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)')
 project_type = ptype[0].findAll(text=True)
-print str(project_type) + "\n"
 
 pcall = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(1)')
 project_call = pcall[0].findAll(text=True)
-print str(project_call) + "\n"
 
 pcode = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(2)')
 project_code = pcode[0].findAll(text=True)
-print str(project_code) + "\n"
 
 pacro = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(3)')
 project_acro = pacro[0].findAll(text=True)
-print str(project_acro) + "\n"
 
 pdura = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(4)')
 project_dura = pdura[0].findAll(text=True)
-print str(project_dura) + "\n"
 
 pstatus = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(5)')
 project_status = pstatus[0].findAll(text=True)
-print str(project_status) + "\n"
+if project_status[0] == '' :
+	project_status[0] = 'aaaa' 
 
 pval = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(6)')
 project_val = pval[0].findAll(text=True)
-print str(project_val) + "\n"
-
 print project_val[0]
 
 # REGEX PART
@@ -102,8 +102,13 @@ print sazetak.groups()[0]
 keyw = re.search("<strong>Klju.*?ne\ rije.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
 print keyw.groups()[0]
 
+f.write(project_code[0] + "\t" + project_title[0] + "\t" + project_head[0] + "\t" + project_type[0] + "\t" + project_call[0] + "\t" + project_acro[0] + "\t" + project_dura[0] + "\t" + project_status[0] + "\t" + ustanova.groups()[0] + "\t" + zn_polja.groups()[0] + "\t" + suradnici.groups()[0]);
 
+#f.write(project_code[0]);
+#f.write(project_title[0]);
+f.write(suradnici.groups()[0]);
 
+f.close()
 
 # FIND HACKS
 
