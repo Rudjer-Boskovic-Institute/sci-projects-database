@@ -56,22 +56,22 @@ def parse ( html_doc ):
 	pdet = soup.select('.page_content')
 	project_det = pdet[0]
 	
-	ustanova = re.search("<strong>Ustanova:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
+	ustanova = re.search("<strong>Institution:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
 	#print ustanova.groups()[0]
 	
-	zn_podrucja = re.search("<strong>Znanstvena\ podru.*?:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
+	zn_podrucja = re.search("<strong>Scientific\ fields:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
 	#print zn_podrucja.groups()[0]
 	
-	zn_polja = re.search("<strong>Znanstvena\ polja:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
+	zn_polja = re.search("<strong>Scientific\ areas:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
 	#print zn_polja.groups()[0]
 	
-	suradnici = re.search("<strong>Suradnici:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
+	suradnici = re.search("<strong>Members:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
 	#print suradnici.groups()[0]
 	
-	sazetak = re.search("<strong>Sa.*?ak:<\/strong><br\/>(.*?)<", str(project_det), re.DOTALL)
+	sazetak = re.search("<strong>Abstract:<\/strong><br\/>(.*?)<", str(project_det), re.DOTALL)
 	#print sazetak.groups()[0]
 	
-	keyw = re.search("<strong>Klju.*?ne\ rije.*?:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
+	keyw = re.search("<strong>Keywords:<\/strong><br\/>(.*?)<br/>", str(project_det), re.DOTALL)
 	#print keyw.groups()[0]
 	
 	if len(project_status)==0: 
@@ -87,7 +87,7 @@ def parse ( html_doc ):
 # MAIN
 #
 
-f = codecs.open('out/hrzz.out', encoding='utf-8', mode='w+')
+f = codecs.open('out/hrzz.en.out', encoding='utf-8', mode='w+')
 
 br = mechanize.Browser()
 br.set_handle_robots(False)
@@ -107,7 +107,7 @@ br2.addheaders = [('User-agent', 'Firefox')]
 
 urlhost = 'http://www.hrzz.hr'
 
-urlpath = 'default.aspx?id=78&search=yes'
+urlpath = 'default.aspx?id=1205&search=yes'
 
 url = urlhost + "/" + urlpath
 
@@ -121,7 +121,7 @@ for page in pages:
 
 	response = br2.open(urlhost + '/' + page.url)
 	
-	links = br2.links(url_regex='id=78&pid=')
+	links = br2.links(url_regex='id=1205&pid=')
 	
 	for link in links:
 		
@@ -135,7 +135,7 @@ for page in pages:
 		
 		f.write(project_line)
 	
-		time.sleep(1)
+		time.sleep(1.5)
 
 f.close()
 
