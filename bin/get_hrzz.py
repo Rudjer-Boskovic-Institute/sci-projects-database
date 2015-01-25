@@ -1,20 +1,87 @@
 #!/usr/bin/python
 
 import re
+import time
 import pprint
 import codecs
 import mechanize
+import urllib2
+import logging
 from bs4 import BeautifulSoup
 import sys  
 
 reload(sys)  
 sys.setdefaultencoding('utf8')
 
-#f = open('/tmp/scrape','wb')
-f = codecs.open('/tmp/scrape2', encoding='utf-8', mode='w')
+logger = logging.getLogger("mechanize")
+logger.addHandler(logging.StreamHandler(sys.stdout))
+logger.setLevel(logging.INFO)
+
+#
+# FUNC
+#
+def parse ( html_doc ):
+
+	soup = BeautifulSoup(html_doc)
+	
+	ptitle = soup.select('.page_content > strong > span')
+	project_title = ptitle[0].findAll(text=True)
+	
+	phead = soup.select('.page_content > table:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)')
+	project_head = phead[0].findAll(text=True)
+	
+	ptype = soup.select('.page_content > table:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)')
+	project_type = ptype[0].findAll(text=True)
+	
+	pcall = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(1)')
+	project_call = pcall[0].findAll(text=True)
+	
+	pcode = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(2)')
+	project_code = pcode[0].findAll(text=True)
+	
+	pacro = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(3)')
+	project_acro = pacro[0].findAll(text=True)
+	
+	pdura = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(4)')
+	project_dura = pdura[0].findAll(text=True)
+	
+	pstatus = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(5)')
+	project_status = pstatus[0].findAll(text=True)
+	
+	pval = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(6)')
+	project_val = pval[0].findAll(text=True)
+	
+	# REGEX PART
+	
+	pdet = soup.select('.page_content')
+	project_det = pdet[0]
+	
+	ustanova = re.search("<strong>Ustanova:<\/strong><br\/>(.*?)<br/>", str(project_det))
+	
+	zn_podrucja = re.search("<strong>Znanstvena\ podru.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
+	
+	zn_polja = re.search("<strong>Znanstvena\ polja:<\/strong><br\/>(.*?)<br/>", str(project_det))
+	
+	suradnici = re.search("<strong>Suradnici:<\/strong><br\/>(.*?)<br/>", str(project_det))
+	
+	sazetak = re.search("<strong>Sa.*?ak:<\/strong><br\/>(.*?)<", str(project_det), re.DOTALL)
+	
+	keyw = re.search("<strong>Klju.*?ne\ rije.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
+	
+	if len(project_status)==0: 
+		project_status = ['null']
+	
+	project_line = project_code[0] + "\t" + project_title[0] + "\t" + project_head[0] + "\t" + project_val[0] + "\t" + project_type[0] + "\t" + project_call[0] + "\t" + project_acro[0] + "\t" + project_dura[0] + "\t" + project_status[0] + "\t" + ustanova.groups()[0] + "\t" + zn_polja.groups()[0] + "\t" + suradnici.groups()[0] + "\t" + sazetak.groups()[0] + "\t" + zn_polja.groups()[0] + "\t" + zn_podrucja.groups()[0] + "\t" + keyw.groups()[0]
+
+	return project_line;
+
+#
+# MAIN
+#
+
+f = codecs.open('/tmp/scrape2', encoding='utf-8', mode='w+')
 
 br = mechanize.Browser()
-#br.set_all_readonly(False)
 br.set_handle_robots(False)
 br.set_handle_refresh(False)
 br.addheaders = [('User-agent', 'Firefox')]
@@ -39,76 +106,29 @@ print (link1.url)
 
 response = br.open(urlhost + '/' + link1.url)
 
-link2 = br.find_link(url_regex='id=78&pid=',nr=1)
+links = br.links(url_regex='id=78&pid=')
 
+pprint.pprint(links)
 
-response = br.open(urlhost + '/' + link2.url)
+for link in links:
+	
+	print link.url
 
-html_doc = response.read()
+	response = urllib2.urlopen(urlhost + '/' + link.url)
 
+	print response
 
-soup = BeautifulSoup(html_doc)
+	#responsePage = br.open(urlhost + '/' + link.url)
+	#html_doc = responsePage.read()
+	#project_line = "aa" #parse( html_doc )
+	
+	#f.write(link.text)
 
-ptitle = soup.select('.page_content > strong > span')
-project_title = ptitle[0].findAll(text=True)
-
-phead = soup.select('.page_content > table:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)')
-project_head = phead[0].findAll(text=True)
-
-ptype = soup.select('.page_content > table:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)')
-project_type = ptype[0].findAll(text=True)
-
-pcall = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(1)')
-project_call = pcall[0].findAll(text=True)
-
-pcode = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(2)')
-project_code = pcode[0].findAll(text=True)
-
-pacro = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(3)')
-project_acro = pacro[0].findAll(text=True)
-
-pdura = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(4)')
-project_dura = pdura[0].findAll(text=True)
-
-pstatus = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(5)')
-project_status = pstatus[0].findAll(text=True)
-if project_status[0] == '' :
-	project_status[0] = 'aaaa' 
-
-pval = soup.select('.page_content > table:nth-of-type(2) > tr:nth-of-type(2) > td:nth-of-type(6)')
-project_val = pval[0].findAll(text=True)
-print project_val[0]
-
-# REGEX PART
-
-pdet = soup.select('.page_content')
-project_det = pdet[0]
-
-ustanova = re.search("<strong>Ustanova:<\/strong><br\/>(.*?)<br/>", str(project_det))
-print ustanova.groups()[0]
-
-zn_podrucja = re.search("<strong>Znanstvena\ podru.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
-print zn_podrucja.groups()[0]
-
-zn_polja = re.search("<strong>Znanstvena\ polja:<\/strong><br\/>(.*?)<br/>", str(project_det))
-print zn_polja.groups()[0]
-
-suradnici = re.search("<strong>Suradnici:<\/strong><br\/>(.*?)<br/>", str(project_det))
-print suradnici.groups()[0]
-
-sazetak = re.search("<strong>Sa.*?ak:<\/strong><br\/>(.*?)<", str(project_det), re.DOTALL)
-print sazetak.groups()[0]
-
-keyw = re.search("<strong>Klju.*?ne\ rije.*?:<\/strong><br\/>(.*?)<br/>", str(project_det))
-print keyw.groups()[0]
-
-f.write(project_code[0] + "\t" + project_title[0] + "\t" + project_head[0] + "\t" + project_type[0] + "\t" + project_call[0] + "\t" + project_acro[0] + "\t" + project_dura[0] + "\t" + project_status[0] + "\t" + ustanova.groups()[0] + "\t" + zn_polja.groups()[0] + "\t" + suradnici.groups()[0]);
-
-#f.write(project_code[0]);
-#f.write(project_title[0]);
-f.write(suradnici.groups()[0]);
+	time.sleep(2)
 
 f.close()
+
+
 
 # FIND HACKS
 
