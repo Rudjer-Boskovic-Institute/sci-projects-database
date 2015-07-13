@@ -1,0 +1,9 @@
+# IMPORT
+
+mysql> load data INFILE '/home/valen/GIT/sci-projects-database/data/HRZZ/hrzz.en.out' into table `hrzz_en` FIELDS TERMINATED BY '\t' ENCLOSED BY '|';
+
+# SELECT za CROSBI
+
+mysql> select concat('HRZZ-', h.project_id) as id, h.title as ime, SUBSTRING_INDEX(h.leader, ' ', 1) as voditelj_ime, SUBSTRING_INDEX(h.leader, ' ', -1) as voditelj_prezime, SUBSTRING_INDEX( SUBSTRING_INDEX(h.period, ' - ', 1), '.', -1) as god_pocetak, SUBSTRING_INDEX( SUBSTRING_INDEX(h.period, ' - ', -1), '.', -1) as god_kraj, e.title as ime_en from hrzz as h, hrzz_en as e where e.project_id=h.project_id limit 1 ;
+
+
