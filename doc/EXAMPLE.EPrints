@@ -1,0 +1,29 @@
+Autocomplete database table:
+
+#
+# TABLE
+#
+
+
++----------------+---------------------------------------------------------------------------------------------------+
+| Table          | Create Table                                                                                      |
++----------------+---------------------------------------------------------------------------------------------------+
+| ac_comprojects | CREATE TABLE `ac_comprojects` (
+  `value` text,
+  `xml` text
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 |
++----------------+---------------------------------------------------------------------------------------------------+
+
+
+#
+# DATA Example
+#
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| The Integrated Infrastructure Initiative for EUROpean Nuclear Structure research - EURONS (506065) Zoran Basrak                                                               | <li>The Integrated Infrastructure Initiative for EUROpean Nuclear Structure research - EURONS (506065)<br><small>Zoran Basrak</small><ul><li id="for:value:relative:_title">The Integrated Infrastructure Initiative for EUROpean Nuclear Structure research - EURONS</li><li id="for:value:relative:_leader">Zoran Basrak</li><li id="for:value:relative:_code">506065</li><li id="for:value:relative:_type">FP 6 </li></ul></li>                                                                                                                            |
+| TRAINing in  MONumental HERitage - TRAINMONHER (518697) Bogomil Obelić                                                                                                        | <li>TRAINing in  MONumental HERitage - TRAINMONHER (518697)<br><small>Bogomil Obelić</small><ul><li id="for:value:relative:_title">TRAINing in  MONumental HERitage - TRAINMONHER</li><li id="for:value:relative:_leader">Bogomil Obelić</li><li id="for:value:relative:_code">518697</li><li id="for:value:relative:_type">FP 6</li></ul></li>                                                                                                                                                                                                               |
+| Creating international cooperation teams of excellence in the field of emerging biomaterial surface research - INCOMAT (32918) Maja Dutour Sikirić                            | <li>Creating international cooperation teams of excellence in the field of emerging biomaterial surface research - INCOMAT (32918)<br><small>Maja Dutour Sikirić</small><ul><li id="for:value:relative:_title">Creating international cooperation teams of excellence in the field of emerging biomaterial surface research - INCOMAT</li><li id="for:value:relative:_leader">Maja Dutour Sikirić</li><li id="for:value:relative:_code">32918</li><li id="for:value:relative:_type">FP 6</li></ul></li>                                                       |
+| Renewables for Isolated Systems – Energy Supply and waste water treatment - RISE (509161) Uroš Desnica                                                                        | <li>Renewables for Isolated Systems – Energy Supply and waste water treatment - RISE (509161)<br><small>Uroš Desnica</small><ul><li id="for:value:relative:_title">Renewables for Isolated Systems – Energy Supply and waste water treatment - RISE</li><li id="for:value:relative:_leader">Uroš Desnica</li><li id="for:value:relative:_code">509161</li><li id="for:value:relative:_type">FP 6</li></ul></li>                                                                                                                                               |
+| Cope with the challenges and opportunities of the 21st century: Integrated Basic and Applied training in a Success-oriented Bioprospecting - BIOCAPITAL (512301) Renato Batel | <li>Cope with the challenges and opportunities of the 21st century: Integrated Basic and Applied training in a Success-oriented Bioprospecting - BIOCAPITAL (512301)<br><small>Renato Batel</small><ul><li id="for:value:relative:_title">Cope with the challenges and opportunities of the 21st century: Integrated Basic and Applied training in a Success-oriented Bioprospecting - BIOCAPITAL</li><li id="for:value:relative:_leader">Renato Batel</li><li id="for:value:relative:_code">512301</li><li id="for:value:relative:_type">FP 6</li></ul></li> |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
