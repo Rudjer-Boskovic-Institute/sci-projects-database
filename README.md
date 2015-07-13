@@ -8,4 +8,4 @@ Debian
 > apt-get install python-mechanize python-bs4
 
 --
-ajti@lib.irb.hr
+it@lib.irb.hr
