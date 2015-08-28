@@ -1,0 +1,50 @@
+Sifra_polja	Naziv_HR	Naziv_EN
+1.01	biologija	biology
+1.02	fizika	physics
+1.03	geoznanosti	earth science
+1.04	kemija	chemistry
+1.05	matematika	mathematics
+2.01	arhitektura i urbanizam	architecture and urban planning
+2.02	brodogradnja	shipbuilding
+2.03	elektrotehnika	electrical engineering
+2.04	geodezija	geodetics
+2.05	graðevinarstvo	civil engineering
+2.06	grafièka tehnologija	graphic technology
+2.07	kemijsko inženjerstvo	chemical engineering
+2.08	metalurgija	metallurgy
+2.09	raèunarstvo	computer science
+2.10	rudarstvo, nafta i geološko inženjerstvo	mining, petroleum and geological engineering
+2.11	strojarstvo	mechanical engineering
+2.12	tehnologija prometa i transport	traffic technology and transport
+2.13	tekstilna tehnologija	textile technology
+2.14	zrakoplovstvo, raketna i svemirska tehnika	aviation, rocket and space technology
+2.15	druge temeljne tehnièke znanosti	other fundamental  technical science
+3.01	temeljne medicinske znanosti	fundamental medical sciences
+3.02	klinièke medicinske znanosti	clinical medicine sciences
+3.03	javno zdravstvo i zdravstvena zaštita	public health and health care system
+3.04	veterinarska medicina	veterinary medicine
+3.05	stomatologija	stomatology
+3.06	farmacija	pharmaceutics
+4.01	poljoprivreda	agriculture
+4.02	šumarstvo	forestry
+4.03	drvna tehnologija	timber technology
+4.04	biotehnologija	biotechnology
+4.05	prehrambena tehnologija	food processing technology
+5.01	ekonomija	economics
+5.02	pravo	law
+5.03	politologija	political science
+5.04	informacijske znanosti	information science
+5.05	sociologija	sociology
+5.06	psihologija	psychology
+5.07	odgojne znanosti	education
+5.08	socijalna geografija i demografija	social geography and demography
+5.09	socijalna djelatnost	social activity
+5.10	sigurnosne i ombrambene znanosti	safety protection and defence science disciplines
+6.01	filozofija	philosophy
+6.02	teologija	theology
+6.03	filologija	philology
+6.04	povijest	history
+6.05	povijest umjetnosti	fine arts history
+6.06	znanost o umjetnosti	arts
+6.07	arheologija	archeology
+6.08	etnologija i antropologija	ethnology and anthropology

@@ -1,0 +1,490 @@
+Sifra_grane	NazivHR	NazivEN
+1.01.01	biokemija i molekularna biologija	biochemistry and molecular biology
+1.01.02	botanika	botany
+1.01.03	ekologija	ecology
+1.01.04	genetika	genetics
+1.01.05	mikrobiologija	microbiology
+1.01.06	opæa biologija	general biology
+1.01.07	zoologija	zoology
+1.02.01	astrofizika i astronomija 	astrophysics and astronomy 
+1.02.02	atomska i molekularna fizika	atomic and molecular physics
+1.02.03	biofizika i biomedicina	biophysics and biomedicine
+1.02.04	fizika elementarnih èestica	elementary particle physics
+1.02.05	fizika kondenzirane tvari	condensed substance physics
+1.02.06	geofizika s meteorologijom	geophysics with meteorology
+1.02.07	nuklearna fizika	nuclear physics
+1.03.01	fizièka geografija	physical geography
+1.03.02	geofizika s meteorologijom	geophysics with meteorology
+1.03.03	geologija	geology
+1.03.04	mineralogija	mineralogy
+1.03.05	oceanologija	oceanology
+1.04.01	analitièka kemija	analytic chemistry
+1.04.02	anorganska kemija	inorganic chemistry
+1.04.03	fizikalna kemija	physical chemistry
+1.04.04	medicinska kemija i biokemija	medical chemistry and biochemistry
+1.04.05	organska kemija	organic chemistry
+1.04.06	teorijska kemija	theoretical chemistry
+1.05.01	algebra	algebra
+1.05.02	geometrija i topologija	geometrics and topology
+1.05.03	kombinatorna i diskretna matematika	combination and discrete mathematics
+1.05.04	matematièka analiza	mathematical analysis
+1.05.05	matematièka logika i raèunarstvo	mathematical logic and computer science
+1.05.06	numerièka matematika	numerical mathematics
+1.05.07	primjenjena matematika i matematièko modeliranje	applied mathematics and mathematical modelling
+1.05.08	teorija vjerojatnosti i statistika	probability theory and statistics
+1.05.09	ostalo	other
+2.01.01	arhitektonsko projektiranje	architectural planning
+2.01.02	urbanizam i prostorno planiranje	urban and zone planning
+2.01.03	arhitektonske konstrukcije, fizika zgrade, materijali i tehnologija graðenje	architectural constructions, building physics, materials and construction technology
+2.01.04	povijest i teorija arhitekture i zaštita graditeljskog nasljeða	architecture history and theory, and building heritage protection
+2.01.05	pejsažna arhitektura	landscape architecture
+2.02.01	konstrukcija plovnih objekata	navigation vessels construction
+2.02.02	hidromehanika plovnih objekata	navigation vessels hydromechanics
+2.02.03	osnivanje plovnih objekata	navigation vessels design
+2.02.04	tehnologija gradnje i održavanje plovnih objekata	building technology and maintenance of navigation vessels
+2.03.01	elektroenergetika	electro-energetics
+2.03.02	elektrostrojarstvo	electromechanical engineering
+2.03.03	elektronika	electronics
+2.03.04	telekomunikacije i informatika	telecommunications and information science
+2.03.05	radiokomunikacije	radiocommunications
+2.04.01	kartografija	cartography
+2.04.02	fotogrametrija i daljinska istraživanja	photogrametry and distant research
+2.04.03	pomorska, satelitska i fizikalna geodezija	maritime, satellite and physical geodetics
+2.04.04	primjenjena geodezija	applied geodetics
+2.04.05	geomatika	geomatics
+2.05.01	geotehnika	geotechnics
+2.05.02	nosive konstrukcije	core structures
+2.05.03	hidrotehnika	hydrotechnics
+2.05.04	prometnice	traffic roads
+2.06.01	procesi grafièke reprodukcije	graphic reproduction processes
+2.07.01	reakcijsko inženjerstvo	reaction engineering
+2.07.02	mehanièki, toplinski i separacijski procesi	mechanical, thermal and separation processes
+2.07.03	analiza i sinteza procesa	process analysis and synthesis
+2.08.01	procesna metalurgija	process metallurgy
+2.08.02	mehanièka metalurgija	mechanical metallurgy
+2.08.03	fizièka metalurgija	physical metallurgy
+2.09.01	arhitektura raèunalnih sustava	computer system architecture
+2.09.02	informacijski sustavi	information systems
+2.09.03	obradba informacija	information processing
+2.09.04	umjetna inteligencija	artificial intelligence
+2.09.05	procesno raèunarstvo	dana processing computer science
+2.10.01	rudarstvo	mining
+2.10.02	naftno rudarstvo	petroleum engineering
+2.10.03	geološko inženjerstvo	geological inženjerstvo
+2.11.01	opæe strojarstvo (konstrukcije)	general mechanical engineering (constructions)
+2.11.02	procesno energetsko strojarstvo	processing energetic engineering
+2.11.03	proizvodno strojarstvo	production mechanical engineering
+2.11.04	brodsko strojarstvo	ship mechanical engineering
+2.12.01	cestovni i željeznièki promet	road and railway transport
+2.12.02	pomorski i rjeèni promet	maritime and river transport
+2.12.03	poštansko-telekomunikacijski promet	post and telecommunication traffic
+2.12.04	zraèni promet	air transport
+2.12.05	ineligentni transporti sustavi i logistika	intelligent transportation systems and logistics
+2.13.01	tekstilno mehanièko inženjerstvo	textile mechanical engineering
+2.13.02	tekstilna kemija	textile chemistry
+2.13.03	odjevna tehnologija	clothing technology
+2.13.04	dizajn tekstila i odjeæe	textile and clothing design
+2.14.01	konstrukcija i osnivanje letjelica	vessel construction and design
+2.14.02	zrakoplovne tehnologije i održavanje	aircraft technologies and maintenance
+2.14.03	voðenje i upravljanje letjelicama	aircraft pilotage and control
+2.15.01	automatika	automatics
+2.15.02	energetika	energetics
+2.15.03	materijali	materials
+2.15.04	mehanika fluida	fluid mechanics
+2.15.05	organizacija rada i proizvodnje 	work and production organization
+2.15.06	tehnièka mehanika (mehanika krutih i deformabilnih tijela)	operating mechanics (solid and deformable bodies mechanics)
+2.15.07	termodinamika	thermodynamics
+2.15.08	zaštita okoliša	environment protection
+3.01.01	anatomija	anatomy
+3.01.02	anesteziologija	anesthesiology
+3.01.03	citologija, histologija i embriologija	cytology, histology and embryology
+3.01.04	dermatologija	dermatology
+3.01.05	epedmiologija	epidemilogy
+3.01.06	farmacija	pharmacy
+3.01.07	farmakologija i toksilogija	pharmacology and  toxicology
+3.01.08	fizikalna medicina i rehabilitacija	physical therapy and rehabilitation
+3.01.09	fiziologija	physiology
+3.01.10	genetika	genetics
+3.01.11	ginekologija, opstetricija i reproduktivna medicina	gynaecology, obstetrics and reproductive medicine
+3.01.12	higijena	hygiene
+3.01.13	imunologija i imunohematologija	immunology and immunohaemathology
+3.01.14	infektologija	infectology
+3.01.15	interna medicina	internal medicine
+3.01.16	javno zdravstvo	public health
+3.01.17	kirurgija	surgery
+3.01.18	klinièka farmakologija s toksikologijom	clinical pharmacology with toxicology
+3.01.19	klinièka kemija i laboratorijska medicina	clinical chemistry and laboratory medicine
+3.01.20	medicina rada	professional diseases medicine
+3.01.21	medicinska biokemija	medical biochemistry
+3.01.22	medicinska mikrobiologija	medical microbiology
+3.01.23	molekularna medicina	molecular medicine
+3.01.24	neurologija	neurology
+3.01.25	neuroznanost	neuroscience
+3.01.26	nuklearna medicina	nuclear medicine
+3.01.27	oftalmologija	ophthalmology
+3.01.28	onkologija	oncology
+3.01.29	opæa medicina	general medicine
+3.01.30	ortopedija	orthopedics
+3.01.31	otorinolaringologija	otorhinolaryngology
+3.01.32	patologija	pathology
+3.01.33	pedijatrija	pediatrics
+3.01.34	psihijatrija	psychiatry
+3.01.35	radiologija	radiology
+3.01.36	sestrinstvo	nursing
+3.01.37	socijalna medicina	social medicine
+3.01.38	stomatologija i oralna kirurgija	stomatology and oral surgery
+3.01.39	sudska medicina	forensic medicine
+3.01.40	urologija	urology
+3.01.41	veterinarska medicina	veterinary medicine
+3.01.42	zdravstvena ekologija	health ecology
+3.02.01	anatomija	anatomy
+3.02.02	anesteziologija	anesthesiology
+3.02.03	citologija, histologija i embriologija	cytology, histology and embryology
+3.02.04	dermatologija	dermatology
+3.02.05	epedmiologija	epidemiology
+3.02.06	farmacija	pharmacy
+3.02.07	farmakologija i toksilogija	pharmacology and  toxicology
+3.02.08	fizikalna medicina i rehabilitacija	physical therapy and rehabilitation
+3.02.09	fiziologija	physiology
+3.02.10	genetika	genetics
+3.02.11	ginekologija, opstetricija i reproduktivna medicina	gynaecology, obstetrics and reproductive medicine
+3.02.12	higijena	hygiene
+3.02.13	imunologija i imunohematologija	immunology and immunohaemathology
+3.02.14	infektologija	infectology
+3.02.15	interna medicina	internal medicine
+3.02.16	javno zdravstvo	public health
+3.02.17	kirurgija	surgery
+3.02.18	klinièka farmakologija s toksikologijom	clinical pharmacology with toxicology
+3.02.19	klinièka kemija i laboratorijska medicina	clinical chemistry and laboratory medicine
+3.02.20	medicina rada	professional diseases medicine
+3.02.21	medicinska biokemija	medical biochemistry
+3.02.22	medicinska mikrobiologija	medical microbiology
+3.02.23	molekularna medicina	molecular medicine
+3.02.24	neurologija	neurology
+3.02.25	neuroznanost	neuroscience
+3.02.26	nuklearna medicina	nuclear medicine
+3.02.27	oftalmologija	ophthalmology
+3.02.28	onkologija	oncology
+3.02.29	opæa medicina	general medicine
+3.02.30	ortopedija	orthopedics
+3.02.31	otorinolaringologija	otorhinolaryngology
+3.02.32	patologija	pathology
+3.02.33	pedijatrija	pediatrics
+3.02.34	psihijatrija	psychiatry
+3.02.35	radiologija	radiology
+3.02.36	sestrinstvo	nursing
+3.02.37	socijalna medicina	social medicine
+3.02.38	stomatologija i oralna kirurgija	stomatology and oral surgery
+3.02.39	sudska medicina	forensic medicine
+3.02.40	urologija	urology
+3.02.41	veterinarska medicina	veterinary medicine
+3.02.42	zdravstvena ekologija	health ecology
+3.03.01	anatomija	anatomy
+3.03.02	anesteziologija	anesthesiology
+3.03.03	citologija, histologija i embriologija	cytology, histology and embryology
+3.03.04	dermatologija	dermatology
+3.03.05	epedmiologija	epidemiology
+3.03.06	farmacija	pharmacy
+3.03.07	farmakologija i toksilogija	pharmacology and  toxicology
+3.03.08	fizikalna medicina i rehabilitacija	physical therapy and rehabilitation
+3.03.09	fiziologija	physiology
+3.03.10	genetika	genetics
+3.03.11	ginekologija, opstetricija i reproduktivna medicina	gynaecology, obstetrics and reproductive medicine
+3.03.12	higijena	hygiene
+3.03.13	imunologija i imunohematologija	immunology and immunohaemathology
+3.03.14	infektologija	infectology
+3.03.15	interna medicina	internal medicine
+3.03.16	javno zdravstvo	public health
+3.03.17	kirurgija	surgery
+3.03.18	klinièka farmakologija s toksikologijom	clinical pharmacology with toxicology
+3.03.19	klinièka kemija i laboratorijska medicina	clinical chemistry and laboratory medicine
+3.03.20	medicina rada	professional diseases medicine
+3.03.21	medicinska biokemija	medical biochemistry
+3.03.22	medicinska mikrobiologija	medical microbiology
+3.03.23	molekularna medicina	molecular medicine
+3.03.24	neurologija	neurology
+3.03.25	neuroznanost	neuroscience
+3.03.26	nuklearna medicina	nuclear medicine
+3.03.27	oftalmologija	ophthalmology
+3.03.28	onkologija	oncology
+3.03.29	opæa medicina	general medicine
+3.03.30	ortopedija	orthopedics
+3.03.31	otorinolaringologija	otorhinolaryngology
+3.03.32	patologija	pathology
+3.03.33	pedijatrija	pediatrics
+3.03.34	psihijatrija	psychiatry
+3.03.35	radiologija	radiology
+3.03.36	sestrinstvo	nursing
+3.03.37	socijalna medicina	social medicine
+3.03.38	stomatologija i oralna kirurgija	stomatology and oral surgery
+3.03.39	sudska medicina	forensic medicine
+3.03.40	urologija	urology
+3.03.41	veterinarska medicina	veterinary medicine
+3.03.42	zdravstvena ekologija	health ecology
+3.04.01	anatomija	anatomy
+3.04.02	anesteziologija	anesthesiology
+3.04.03	citologija, histologija i embriologija	cytology, histology and embryology
+3.04.04	dermatologija	dermatology
+3.04.05	epedmiologija	epidemiology
+3.04.06	farmacija	pharmacy
+3.04.07	farmakologija i toksilogija	pharmacology and  toxicology
+3.04.08	fizikalna medicina i rehabilitacija	physical therapy and rehabilitation
+3.04.09	fiziologija	physiology
+3.04.10	genetika	genetics
+3.04.11	ginekologija, opstetricija i reproduktivna medicina	gynaecology, obstetrics and reproductive medicine
+3.04.12	higijena	hygiene
+3.04.13	imunologija i imunohematologija	immunology and immunohaemathology
+3.04.14	infektologija	infectology
+3.04.15	interna medicina	internal medicine
+3.04.16	javno zdravstvo	public health
+3.04.17	kirurgija	surgery
+3.04.18	klinièka farmakologija s toksikologijom	clinical pharmacology with toxicology
+3.04.19	klinièka kemija i laboratorijska medicina	clinical chemistry and laboratory medicine
+3.04.20	medicina rada	professional diseases medicine
+3.04.21	medicinska biokemija	medical biochemistry
+3.04.22	medicinska mikrobiologija	medical microbiology
+3.04.23	molekularna medicina	molecular medicine
+3.04.24	neurologija	neurology
+3.04.25	neuroznanost	neuroscience
+3.04.26	nuklearna medicina	nuclear medicine
+3.04.27	oftalmologija	ophthalmology
+3.04.28	onkologija	oncology
+3.04.29	opæa medicina	general medicine
+3.04.30	ortopedija	orthopedics
+3.04.31	otorinolaringologija	otorhinolaryngology
+3.04.32	patologija	pathology
+3.04.33	pedijatrija	pediatrics
+3.04.34	psihijatrija	psychiatry
+3.04.35	radiologija	radiology
+3.04.36	sestrinstvo	nursing
+3.04.37	socijalna medicina	social medicine
+3.04.38	stomatologija i oralna kirurgija	stomatology and oral surgery
+3.04.39	sudska medicina	forensic medicine
+3.04.40	urologija	urology
+3.04.41	veterinarska medicina	veterinary medicine
+3.04.42	zdravstvena ekologija	health ecology
+3.05.01	anatomija	anatomy
+3.05.02	anesteziologija	anesthesiology
+3.05.03	citologija, histologija i embriologija	cytology, histology and embryology
+3.05.04	dermatologija	dermatology
+3.05.05	epedmiologija	epidemiology
+3.05.06	farmacija	pharmacy
+3.05.07	farmakologija i toksilogija	pharmacology and  toxicology
+3.05.08	fizikalna medicina i rehabilitacija	physical therapy and rehabilitation
+3.05.09	fiziologija	physiology
+3.05.10	genetika	genetics
+3.05.11	ginekologija, opstetricija i reproduktivna medicina	gynaecology, obstetrics and reproductive medicine
+3.05.12	higijena	hygiene
+3.05.13	imunologija i imunohematologija	immunology and immunohaemathology
+3.05.14	infektologija	infectology
+3.05.15	interna medicina	internal medicine
+3.05.16	javno zdravstvo	public health
+3.05.17	kirurgija	surgery
+3.05.18	klinièka farmakologija s toksikologijom	clinical pharmacology with toxicology
+3.05.19	klinièka kemija i laboratorijska medicina	clinical chemistry and laboratory medicine
+3.05.20	medicina rada	professional diseases medicine
+3.05.21	medicinska biokemija	medical biochemistry
+3.05.22	medicinska mikrobiologija	medical microbiology
+3.05.23	molekularna medicina	molecular medicine
+3.05.24	neurologija	neurology
+3.05.25	neuroznanost	neuroscience
+3.05.26	nuklearna medicina	nuclear medicine
+3.05.27	oftalmologija	ophthalmology
+3.05.28	onkologija	oncology
+3.05.29	opæa medicina	general medicine
+3.05.30	ortopedija	orthopedics
+3.05.31	otorinolaringologija	otorhinolaryngology
+3.05.32	patologija	pathology
+3.05.33	pedijatrija	pediatrics
+3.05.34	psihijatrija	psychiatry
+3.05.35	radiologija	radiology
+3.05.36	sestrinstvo	nursing
+3.05.37	socijalna medicina	social medicine
+3.05.38	stomatologija i oralna kirurgija	stomatology and oral surgery
+3.05.39	sudska medicina	forensic medicine
+3.05.40	urologija	urology
+3.05.41	veterinarska medicina	veterinary medicine
+3.05.42	zdravstvena ekologija	health ecology
+3.06.01	anatomija	anatomy
+3.06.02	anesteziologija	anesthesiology
+3.06.03	citologija, histologija i embriologija	cytology, histology and embryology
+3.06.04	dermatologija	dermatology
+3.06.05	epedmiologija	epidemiology
+3.06.06	farmacija	pharmacy
+3.06.07	farmakologija i toksilogija	pharmacology and  toxicology
+3.06.08	fizikalna medicina i rehabilitacija	physical therapy and rehabilitation
+3.06.09	fiziologija	physiology
+3.06.10	genetika	genetics
+3.06.11	ginekologija, opstetricija i reproduktivna medicina	gynaecology, obstetrics and reproductive medicine
+3.06.12	higijena	hygiene
+3.06.13	imunologija i imunohematologija	immunology and immunohaemathology
+3.06.14	infektologija	infectology
+3.06.15	interna medicina	internal medicine
+3.06.16	javno zdravstvo	public health
+3.06.17	kirurgija	surgery
+3.06.18	klinièka farmakologija s toksikologijom	clinical pharmacology with toxicology
+3.06.19	klinièka kemija i laboratorijska medicina	clinical chemistry and laboratory medicine
+3.06.20	medicina rada	professional diseases medicine
+3.06.21	medicinska biokemija	medical biochemistry
+3.06.22	medicinska mikrobiologija	medical microbiology
+3.06.23	molekularna medicina	molecular medicine
+3.06.24	neurologija	neurology
+3.06.25	neuroznanost	neuroscience
+3.06.26	nuklearna medicina	nuclear medicine
+3.06.27	oftalmologija	ophthalmology
+3.06.28	onkologija	oncology
+3.06.29	opæa medicina	general medicine
+3.06.30	ortopedija	orthopedics
+3.06.31	otorinolaringologija	otorhinolaryngology
+3.06.32	patologija	pathology
+3.06.33	pedijatrija	pediatrics
+3.06.34	psihijatrija	psychiatry
+3.06.35	radiologija	radiology
+3.06.36	sestrinstvo	nursing
+3.06.37	socijalna medicina	social medicine
+3.06.38	stomatologija i oralna kirurgija	stomatology and oral surgery
+3.06.39	sudska medicina	forensic medicine
+3.06.40	urologija	urology
+3.06.41	veterinarska medicina	veterinary medicine
+3.06.42	zdravstvena ekologija	health ecology
+4.01.01	agrokemija	agrochemistry
+4.01.02	bilinogojstvo	herbs farming
+4.01.03	ekologija i zaštita okoliša	ecology and environment protection
+4.01.04	ekonomika	economics
+4.01.05	fitomedicina	fitomedicine
+4.01.06	genetika i oplemenjivanje bilja, životinja i mikroorganizama	genetics and plant, animal and microorganism breeding
+4.01.07	hranidba životinja	animal feeding
+4.01.08	krajobrazna arhitektura	landscape architecture
+4.01.09	lovstvo	hunting
+4.01.10	mljekarstvo	dairy production
+4.01.11	poljoprivredna tehnika i tehnologija	agricultural technics and technology 
+4.01.12	povræarstvo	vegetable growing
+4.01.13	proizvodnja i prerada animalnih proizvoda	animal products production and processing
+4.01.14	ribarstvo	fishery
+4.01.15	sjemenarstvo	seed production
+4.01.16	stoèarstvo	livestock farming
+4.01.17	travnjaštvo	herbs farming
+4.01.18	ukrasno bilje	decorative plants
+4.01.19	vinogradarstvo i vinarstvo	vineyard farming and wine production
+4.01.20	voæarstvo	fruit-growing
+4.02.01	hortikultura	horticulture
+4.02.02	iskorištavanje šuma	forest harvesting
+4.02.03	urbano šumarstvo i zaštita prirode	urban forestry and nature protection
+4.02.04	ureðivanje i zaštita šuma	forest management and protection
+4.02.05	uzgajanje šuma	forest growing
+4.02.06	lovstvo	hunting
+4.03.01	drvni materijali	timber materials
+4.03.02	drvno tehnološki procesi	timber technological processes
+4.03.03	konstruiranje i oblikovanje proizvoda od drva	wooden products design and modelling
+4.03.04	organizacija proizvodnje 	production organization
+4.04.01	bioinformatika	bioinformatics
+4.04.02	biologija	biology
+4.04.03	inženjerstvo	engineering
+4.04.04	molekularna biotehnologija	molecular biotechnology
+4.04.05	otpadne tvari	waste material
+4.05.01	inženjerstvo	engineering
+4.05.02	kemija hrane	food chemistry
+4.05.03	mikrobiologija hrane	food microbiology
+4.05.04	nutricionizam	nutrition
+4.05.05	osiguranje kvalitete	quality assurance
+5.01.01	ekonomika poduzetništva	business economy
+5.01.02	financije i fiskalna politika	finance and fiscal policy
+5.01.03	kvantitativna ekonomija	quantitative economy
+5.01.04	menadžment i upravljanje	management and administration
+5.01.05	meðunarodna ekonomija	international economy
+5.01.06	opæa ekonomija	general economics
+5.02.01	financijsko pravo	finance law
+5.02.02	graðansko pravo i graðansko procesno pravo	civil law and civil procedural law
+5.02.03	kazneno pravo i kazneno procesno pravo	criminal law and criminal procedural law
+5.02.04	meðunarodno pravo	international law
+5.02.05	meðunarodno privatno pravo	private international law
+5.02.06	obiteljsko pravo	family law
+5.02.07	pomorsko i opæeprometno pravo	maritime and general traffic law
+5.02.08	povijest prava i države	history of law and state
+5.02.09	radno i socijalno pravo	labour and social law
+5.02.10	rimsko pravo	Roman law
+5.02.11	teorija prava i države 	theory of law and state
+5.02.12	trgovaèko pravo i pravo društava	trade law and community law
+5.02.13	upravno pravo i uprava	administrative law and administration
+5.02.14	ustavno pravo	constitutional law
+5.02.15	europsko javno pravo	European public law
+5.02.16	europsko privatno pravo	European private law
+5.03.01	poitièka teorija/povijest politièkih ideja	political theory / history of political concepts
+5.03.02	vanjska i unutarnja politika	foreign and domestic politics
+5.03.03	komparativna politika	comparative politics
+5.03.04	meðunarodni odnosi i nacionalna sigurnost	international relations and national security
+5.04.01	arhivistika i dokumentalistika	archive and documentation systems
+5.04.02	informacijski sustavi i informatologija	information systems and informatics
+5.04.03	knjižnièarstvo	library and information science
+5.04.04	komunikologija	communication science
+5.04.05	leksikografija i enciklopedistika	lexicography and encyclopedics
+5.04.06	muzeologija	museology
+5.04.07	novinarstvo	journalism
+5.04.08	javni mediji	mass-media
+5.05.01	posebne sociologije	special sociologies
+5.05.02	sociologija znanja	sociology of knowledge
+5.05.03	teorijska i sustavna sociologija	theory and system sociology
+5.05.04	ruralne, urbane i regionalne studije	rural, urban and regional studies
+5.06.01	biološka i fiziološka psihologija	biological and physiological psychology
+5.06.02	klinièka psihologija	clinic psychology
+5.06.03	posebne psihologije	special psychologies
+5.06.04	razvojna psihologija	development psychology
+5.06.05	socijalna psihologija	social psychology
+5.06.06	sustavna psihologija	system psychology
+5.07.01	andragogija	andragogy
+5.07.02	defektologija	defectologia
+5.07.03	didaktika	didactics
+5.07.04	kineziologija	kinesiology
+5.07.05	logopedija	logopedics
+5.07.06	opæa pedagogija	general pedagogics
+5.07.07	susatvna pedagogija	system pedagogics
+5.08.01	demogeografija	demogeography
+5.08.02	demografija	demography
+5.08.03	ekonomska geografija	economic geography
+5.08.04	socijalna geografija	social geography
+5.09.01	socijalna politika	social politics
+5.09.02	socijalno planiranje	social planning
+5.09.03	teorija socijalnog rada	social labour theory 
+5.09.04	posebna podruèja socijalnog rada	social labour special areas
+5.09.05	socijalna gerontologija	social gerontology
+6.01.01	logika	logic
+6.01.02	ontologija	ontology
+6.01.03	spoznajna teorija	cognitive theory
+6.01.04	estetika	esthetics
+6.01.05	etika	ethic
+6.01.06	povijest filozofije	history of philosophy
+6.02.01	dogamtika	dogmatism
+6.02.02	moralna teologija	moral theology
+6.02.03	pastoralna teologija	pastoral theology
+6.02.04	egzegeza	egsegesis
+6.02.05	crkvena povijest	church history
+6.03.01	klasièna filologija	traditional philology
+6.03.02	kroatistika	Croatian studies
+6.03.03	slavistika	Slavic studies
+6.03.04	romanistika	studies of Roman-based languages
+6.03.05	germanistika	German studies
+6.03.06	anglistika	English studies
+6.03.07	indologija	studies of India-based languages
+6.03.08	turkologija	Turkish studies
+6.03.09	ugrofinistika	Hungarian-Finnish studies
+6.03.10	orijentalne i ostale filologije	Oriental and other philologies
+6.03.11	fonetika	phonetics
+6.03.12	opæe jezikoslovlje (lingvistika)	general linquistics
+6.03.13	poredbeno jezikoslovlje	comparative linquistics
+6.03.14	teorija i povijest književnosti	literature theory and history 
+6.03.15	poredbena književnost	comparative literature 
+6.04.01	opæa povijst	general history
+6.04.02	nacionalna povijest	national history
+6.04.03	pomoæne povijesne znanosti	historical ancillary science
+6.05.01	povijst i teorija likovnih umjetnosti, arhitekture, urbanizma i vizualnih komunikacija	history and theory of fine arts, architecture, urbanism and visual communications
+6.05.02	zaštita umjetnièke baštine	art heritage protection
+6.06.01	muzikologija i etnomuzikologija	musicology and ethnomusicology
+6.06.02	teorija likovnih umjetnosti	fine arts theory
+6.06.03	teatrologija	theatrology
+6.06.04	filmologija	movie art
+6.07.01	prapovijesna arheologija	prehistoric archeology
+6.07.02	antièka arheologija	Antique period archeology
+6.07.03	srednjovjekovna arheologija	Mediaeval archeology
+6.08.01	antropologija	anthropology
+6.08.02	etnologija	ethnology
+6.08.03	folkloristika	folkloristics

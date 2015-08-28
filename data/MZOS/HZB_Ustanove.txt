@@ -1,0 +1,191 @@
+irl	naziv_ust_HR	naziv_ust_EN	ulica_br	ptt_br	naziv_mj
+1	Institut za oceanografiju i ribarstvo, Split	Institute of Oceanography and Fisheries	Šetalište I.Meštroviæa 63	21000	SPLIT
+2	Ekonomski institut, Zagreb	Institute of Economics, Zagreb	Trg J.F.Kennedyja 7                                            	10000	ZAGREB
+4	Državni hidrometeorološki zavod	Meteorological and Hydrological Service	Griè 3 , Zagreb                                                     	10000	ZAGREB
+5	Hrvatski zavod za javno zdravstvo	Croatian National Institute of Public Health	Rockfellerova 7	10000	ZAGREB
+6	Farmaceutsko-biokemijski fakultet, Zagreb	The Faculty of Pharmacy and Biochemistry, Zagreb	Ante Kovaèiæa 1                                             	10000	ZAGREB
+7	Geodetski fakultet, Zagreb	University of Zagreb Faculty of Geodesy	Fra Andrije Kaèiæa Miošiæa 26                                   	10000	ZAGREB
+8	KONÈAR - Institut za elektrotehniku d.d.	KONÈAR - Institute for Electrical Engineering, Zagreb	Fallerovo šetalište 22                                      	10000	ZAGREB
+9	Filozofski fakultet, Rijeka	University of Rijeka, Faculty of Humanities and Social Sciences	Sveuèilišna avenija 4                                              	51000	RIJEKA
+10	Ekonomski fakultet, Osijek	The Faculty of Economics, Osijek	Gajev trg 7                                                 	31000	OSIJEK
+11	Kemijsko-tehnološki fakultet, Split	University of Split Faculty of Chemistry and Technology	Teslina 10/V                                                	21000	SPLIT
+13	Edukacijsko-rehabilitacijski fakultet, Zagreb	University of Zagreb Faculty of Education and Rehabilitation Sciences	Borongajska cesta 83f	10000	ZAGREB
+15	Fakultet politièkih znanosti, Zagreb	The Faculty of Political Science, Zagreb	Lepušiæeva 6                                                	10000	ZAGREB
+16	Fakultet organizacije i informatike, Varaždin	The Faculty of Organization and Computer Science, Varaždin	Pavlinska 2                                                 	42000	VARAŽDIN
+17	Institut za razvoj i meðunarodne odnose	Institute for Development and International Relations	Ljudevita Farkaša Vukotinoviæa 2                            	10000	ZAGREB
+18	Pravni fakultet, Split	University of Split, Faculty of Law	Ulica Domovinskog rata 8                                   	21000	SPLIT
+19	Hrvatski institut za povijest, Zagreb	Croatian Institute of History, Zagreb	Opatièka 10                                                 	10000	ZAGREB
+20	Institut za povijest umjetnosti, Zagreb	Institute of Art History, Zagreb	Ulica grada Vukovara 68                                     	10000	ZAGREB
+21	Imunološki zavod d.d.	Institute of Immunology, Inc.	Rockefellerova 2                                            	10000	ZAGREB
+22	Institut za medicinska istraživanja i medicinu rada, Zagreb	Institute for Medical Research and Occupational Health	Ksaverska cesta 2                                           	10000	ZAGREB
+23	Fakultet elektrotehnike, strojarstva i brodogradnje, Split	University of Split, Faculty of Electrical Engineering, Mechanical Engineering a...	Ruðera Boškoviæa 32	21000	SPLIT
+24	Hrvatski šumarski institut, Jastrebarsko	Croatian Forest Research Institute	Cvjetno naselje  41                                         	10450	JASTREBARSKO
+34	Kineziološki fakultet, Zagreb	University of Zagreb, The Faculty of Kinesiology	Horvaæanski zavoj 15                                        	10000	ZAGREB
+35	Institut za fiziku, Zagreb	Institute of Physics, Zagreb	Bijenièka cesta 46                                          	10000	ZAGREB
+36	Fakultet elektrotehnike i raèunarstva, Zagreb	The Faculty of Electrical Engineering and Computing, Zagreb	Unska 3                                                     	10000	ZAGREB
+37	Prirodoslovno-matematièki fakultet, Matematièki odjel, Zagreb	The Faculty of Science,  Department of Mathematics	Bijenièka cesta 30                                          	10000	ZAGREB
+44	Klinièka bolnica "Merkur"	Scientific Unit- Merkur Clinical Hospital, Zagreb	Zajèeva ulica 19                                            	10000	ZAGREB
+45	Klinika za dijabetes, endokrinologiju i bolesti metabolizma Vuk Vrhovac	Vuk Vrhovac - University Clinic for Diabetes, Endocrinology and Metabolic Diseas...	Dugi dol 4a                                                 	10000	ZAGREB
+48	Hrvatski veterinarski institut, Zagreb	Croatian Veterinary Institute, Zagreb	Savska cesta 143                                            	10000	ZAGREB
+53	Veterinarski fakultet, Zagreb	The Faculty of Veterinary Medicine, Zagreb	Heinzelova 55                                               	10000	ZAGREB
+54	Arhitektonski fakultet, Zagreb	University of Zagreb Faculty of Architecture	Fra Andrije Kaèiæa Miošiæa 26                               	10000	ZAGREB
+55	Ekonomski fakultet, Split	University of Split, Faculty of Economics	Cvite Fiskoviæ 5                                         	21000	SPLIT
+58	Prehrambeno-biotehnološki fakultet, Zagreb	The Faculty of Food Technology and Biotechnology, Zagreb	Pierottijeva 6                                              	10000	ZAGREB
+61	INA-Industrija nafte d.d.	INA - Research and Development, Zagreb	Lovinèiæeva bb                                                	10000	ZAGREB
+62	Medicinski fakultet, Rijeka	The Faculty of Medicine, Rijeka	Braæe Branchetta 20                                         	51000	RIJEKA
+65	Stomatološki fakultet, Zagreb	University of Zagreb, The Faculty of Dentistry	Gunduliæeva 5                                               	10000	ZAGREB
+66	Pravni fakultet, Zagreb	The Faculty of Law, Zagreb	Trg maršala Tita 14                                         	10000	ZAGREB
+67	Ekonomski fakultet, Zagreb	University of Zagreb Faculty of Economics and Buissiness	Trg. J. F. Kennedya 6                                       	10000	ZAGREB
+68	Šumarski fakultet, Zagreb	The Faculty of Forestry, Zagreb	Svetošimunska 25                                            	10000	ZAGREB
+69	Tehnièki fakultet, Rijeka	University of Rijeka Faculty of Engineering	Vukovarska 58                                               	51000	RIJEKA
+71	Ericsson Nikola Tesla d.d.	Ericsson - Nikola Tesla Institute, Zagreb	Krapinska 45                                                	10000	ZAGREB
+72	Klinika za djeèje bolesti Medicinskog fakulteta	Children's Hospital, Zagreb, University of Zagreb, Medical School	Klaiæeva 16                                                 	10000	ZAGREB
+73	Poljoprivredni institut Osijek	Agricultural Institute Osijek	Južno predgraðe 17, p.p. 334                                 	31000	OSIJEK
+74	Klinika za tumore	University Hospital for Tumors, Zagreb	Ilica 197                                                   	10000	ZAGREB
+75	Leksikografski zavod	Miroslav Krleža Institute of Lexicography	Frankopanska 26                                             	10000	ZAGREB
+76	Institut za migracije i narodnosti, Zagreb	Institute for Migration and Ethnic Studies, Zagreb	Trg Stjepana Radiæa 3                                       	10000	ZAGREB
+79	Poljoprivredni fakultet, Osijek	Josip Juraj Strossmayer in Osijek Faculty of Agriculture in Osijek	Kralja Petra Svaèiæa 1d                                 	31000	OSIJEK
+81	Ekonomski fakultet, Rijeka	University of Rijeka Faculty of Economics	Ivana Filipoviæa 4                                          	51000	RIJEKA
+82	Graðevinski fakultet, Zagreb	The Faculty of Civil Engineering, Zagreb	Fra Andrije Kaèiæa Miošiæa 26                               	10000	ZAGREB
+83	Fakultet graðevinarstva, arhitekture i geodezije, Split	University of Split Faculty of Civil Engineering, Archtecture and Geodesy	Matice hrvatske 15                                           	21000	SPLIT
+90	Staroslavenski institut , Zagreb	Old Church Slavonic Institute, Zagreb	Demetrova 11                                                	10000	ZAGREB
+91	Institut za jadranske kulture i melioraciju krša, Split	Institute for Adriatic Crops and Karst Reclamation, Split	Put Duilova 11                                              	21000	SPLIT
+92	Duhanski institut Zagreb	Tobacco Institute Zagreb Inc.	Svetošimunska cesta 25	10000	ZAGREB
+98	Institut "Ruðer Boškoviæ", Zagreb	Ruðer Boškoviæ Institute, Zagreb	Bijenièka cesta 54                                          	10000	ZAGREB
+100	Institut za društvena istraživanja , Zagreb	Institute for Social Research, Zagreb	Amruševa 11/II                                              	10000	ZAGREB
+101	Hrvatska akademija znanosti i umjetnosti	Croatian Academy of Sciences and Arts	Trg Nikole Šubiæa Zrinskog 11                               	10000	ZAGREB
+106	Bc Institut za oplemenjivanje i proizvodnju bilja, d.d.	Institute for Breeding and Production of Field Crops, Zagreb	Rugvica, Dugoselska 7                            	10370	DUGO SELO
+108	Medicinski fakultet, Zagreb	The Faculty of Medicine, Zagreb	Šalata 3                                                    	10000	ZAGREB
+110	INSTITUT IGH, d.d.	INSTITUT IGH, Joint-stock Company for Research and Development in Civil Engineer...	Janka Rakuše 1                                              	10000	ZAGREB
+111	Pravni fakultet, Osijek	The Faculty of Law, Osijek	Ulica Stjepana Radiæa 13                                    	31000	OSIJEK
+112	Pomorski fakultet, Rijeka	University of Rijeka Faculty of Maritime Studies-Rijeka, Croatia	Studentska 2                                                	51000	RIJEKA
+113	Prehrambeno-tehnološki fakultet, Osijek	Josip Juraj Strossmayer University of Osijek Faculty of Food Technology Osijek	Franje Kuhaèa 20                                            	31000	OSIJEK
+114	Graðevinski fakultet, Rijeka	University of Rijeka Faculty of Civil Engineering	Radmile Matejèiæ 3                                         	51000	RIJEKA
+115	Pravni fakultet, Rijeka	University of Rijeka Faculty of Law	Hahliæ 6                                                    	51000	RIJEKA
+116	Fakultet za menadžment u turizmu i ugostiteljstvu, Opatija	University of Rijeka, Faculty of Tourism and Hospitality Managment	Naselje Ika, Primorska 42   P.P.97                                	51410	OPATIJA
+117	Tekstilno-tehnološki fakultet, Zagreb	University of Zagreb Faculty of Textile Technology	Prilaz baruna Filipoviæa 28a                                             	10000	ZAGREB
+119	Prirodoslovno-matematièki fakultet, Zagreb	University of Zagreb Faculty of Science	Horvatovac 102                                              	10000	ZAGREB
+120	Fakultet strojarstva i brodogradnje, Zagreb	University of Zagreb, The Faculty of Mechanical Engineering and Naval Architectu...	Ivana Luèiæa 5                                              	10000	ZAGREB
+121	Zavod za javno zdravstvo	Institute of Public Health	Mirogojska cesta 16                                         	10000	ZAGREB
+122	Filozofski fakultet, Osijek		Lorenza Jagera 9                                                 	31000	OSIJEK
+124	Metalurški fakultet, Sisak	The Faculty of Metallurgy, Sisak	Aleja narodnih heroja 3                                     		SISAK
+125	Fakultet kemijskog inženjerstva i tehnologije, Zagreb	The Faculty of Chemical Engineering and Technology, Zagreb	Maruliæev trg 19                                            	10000	ZAGREB
+126	Institut za turizam, Zagreb	Institute for Tourism, Zagreb	Vrhovec 5                                                   	10000	ZAGREB
+127	Klinièki bolnièki centar Osijek	Clinical Medical Center Osijek	Ulica Josipa Huttlera 4                                     	31000	OSIJEK
+128	Grafièki fakultet, Zagreb	The Faculty of Graphics, Zagreb	Getaldiæeva 2                                               	10000	ZAGREB
+129	Klinièka bolnica "Sveti Duh"	Clinical Hospital "Sveti Duh"	Sveti Duh 64                                                	10000	ZAGREB
+130	Filozofski fakultet, Zagreb	The Faculty of Philosophy, Zagreb	Ivana Luèiæa 3                                              	10000	ZAGREB
+134	KBC "Sestre Milosrdnice"	Clinical Hospital Center "Sestre Milosrdnice"	Vinogradska cesta 29                                        	10000	ZAGREB
+135	Fakultet prometnih znanosti, Zagreb	The Faculty of Traffic Engineering, Zagreb	Vukeliæeva 4                                                	10000	ZAGREB
+141	KBC Split	Klinical Hospital Center Split	Spinèiæeva 1                                                	21000	SPLIT
+143	Klinika za infektivne bolesti "Dr Fran Mihaljeviæ"	Clinic for Infective Diseases "dr. Fran Mihaljeviæ"	Mirogojska cesta 8                                          	10000	ZAGREB
+147	Institut za poljoprivredu i turizam, Poreè	Institute of Agriculture and Tourism, Poreè	C. Huguesa 8                                                	52440	POREÈ
+149	Graðevinski fakultet, Osijek	The Faculty of Civil Engineering in Osijek	Drinska 16a                                                 	31000	OSIJEK
+151	Klinika za traumatologiju		Draškoviæeva 19                                             	10000	ZAGREB
+152	Strojarski fakultet, Slavonski Brod	Universiy of Josip Juraj Strossmayer in Osijek, Mechanical Engineering Faculty i...	Trg Ivane Brliæ Mažuraniæ 2	35000	SLAVONSKI BROD
+160	Geotehnièki fakultet, Varaždin	University of Zagreb The Faculty of Geotechnics, Varaždin	Hallerova aleja 7                                           	42000	VARAŽDIN
+165	Elektrotehnièki fakultet, Osijek	The Faculty of Electrical Engineering, Osijek	Kneza Trpimira 2b                                           	31000	OSIJEK
+172	Institut za javne financije, Zagreb	Institute of Public Finance	Smièiklasova 21                               	10000	ZAGREB
+177	Prirodoslovno-matematièki fakultet, Split	University of Split, Faculty of Science	Teslina 12                                              	21000	SPLIT
+178	Agronomski fakultet, Zagreb	University of Zagreb The Faculty of Agriculture	Svetošimunska cesta 25                                      	10000	ZAGREB
+181	Hrvatski geološki institut	Croatian Geological Survey	Sachsova 2                                                  	10000	ZAGREB
+183	Hrvatski prirodoslovni muzej	Croatian Natural History Museum	Demetrova 1                                                 	10000	ZAGREB
+184	Opæa bolnica "Dr. Josip Benèeviæ"	General Hospital "Dr. Josip Benèeviæ"	Andrije Štampara 42                                         	35000	SLAVONSKI BROD
+189	Institut za etnologiju i folkloristiku, Zagreb	Institute of Ethnology and Folklore Research, Zagreb	Šubiæeva 42                                                 	10000	ZAGREB
+191	Institut za filozofiju, Zagreb	Institute for Philosophy, Zagreb	Ulica grada Vukovara 54                                     	10000	ZAGREB
+192	Brodarski institut d.o.o.	Marine Research and Special Technologies, Zagreb	Avenija V. Holjevca 20                                      	10000	ZAGREB
+194	Institut društvenih znanosti Ivo Pilar, Zagreb	Institute of Social Sciences Ivo Pilar, Zagreb	Maruliæev trg 19/I                                          	10000	ZAGREB
+195	Rudarsko-geološko-naftni fakultet, Zagreb	University of Zagreb Faculty of Mining, Geology and Petroleum Engineering	Pierottijeva 6                                              	10000	ZAGREB
+196	Institut za antropologiju	Institute for Antropological Research, Zagreb	Ljudevita Gaja 32                                           	10000	ZAGREB
+197	Institut za arheologiju, Zagreb	Institute of Archaeology, Zagreb	Ljudevita Gaja 32                                	10000	ZAGREB
+198	Klinièka bolnica "Dubrava"	Dubrava Clinical Hospital, Zagreb	Avenija Gojka Šuška 6                                       	10000	ZAGREB
+199	Filozofski fakultet Družbe Isusove, Zagreb	Faculty of Philosophy of the Society of Jesus in Zagreb	Jordanovac 110, pp 169                                      	10000	ZAGREB
+201	Energetski institut	Energy Institute Hrvoje Požar	Savska cesta 163                                            	10000	ZAGREB
+203	Katolièki bogoslovni fakultet, Zagreb	The Catholic Theological Faculty, Zagreb	Vlaška 38                                                   	10000	ZAGREB
+204	MUP Policijska akademija – Visoka policijska škola, Zagreb	The Police School of Professional Higher Education – Police Academy of the Minis...	Avenija Gojka Šuška 1                                       	10000	ZAGREB
+205	Hrvatski državni arhiv	Croatian State Archives	Maruliæev trg 21                                            	10000	ZAGREB
+207	Poliklinika SUVAG	Clinic SUVAG	Kneza Ljudevita Posavskog 10                                	10000	ZAGREB
+212	Institut za hrvatski jezik i jezikoslovlje, Zagreb	Institute of Croatian Language and Linguistics	Ulica Republike Austrije 16                                 	10000	ZAGREB
+213	Muzièka akademija, Zagreb	University of Zagreb Music Academy	Gunduliæeva 6                                               	10000	ZAGREB
+214	Klinièki bolnièki centar Zagreb	University Hospital Center - Pathobiochemical and Clinical Research Unit, Zagreb	Šalata 2                                                    	10000	ZAGREB
+215	Umjetnièka akademija, Split	University of Split, Arts Academy	Glagoljaška b.b.                                            	21000	SPLIT
+216	Medicinski fakultet, Split	University of Split, The Faculty of Medicine	Šoltanska 2                                                 	21000	SPLIT
+218	Akademija medicinskih znanosti	Academy of Medical Sciences of Croatia	Praška 2/III. , Zagreb	10000	ZAGREB
+219	Medicinski fakultet, Osijek	Josip Juraj Strossmayer Univeristy of Osijek, Faculty of Medicine	Josipa Huttlera 4                                           	31000	OSIJEK
+226	Hrvatski studiji, Zagreb	Centre for Croatian Studies of University of Zagreb	Borongajska cesta 83d	10000	ZAGREB
+227	Uèiteljski fakultet, Zagreb	University of Zagreb, Faculty of teacher education	Savska cesta 77                                             	10000	ZAGREB
+235	Sveuèilište u Osijeku, Odjel za matematiku	Mathematics Department of the J. J. Strossmayer University of Osijek	Trg Ljudevita Gaja 6                                        	31000	OSIJEK
+236	Veleuèilište u Rijeci	Polytechnic of Rijeka	Trpimirova 2/V                                              	51000	RIJEKA
+238	Katolièki bogoslovni fakultet, Split	University of Split Catholic Theological Faculty	Zrinsko-Frankopanska 19                                     	21000	SPLIT
+244	Filozofski fakultet u Splitu	Faculty of Humanities and Social Sciences, University of Split	Sinjska 2                                                   	21000	SPLIT
+245	Fakultet za odgojne i obrazovane znanosti, Osijek	University of Josip Juras Strossmayer of Osijek, Faculty of Education	Ulica cara Hadrijana 10                                      	31000	OSIJEK
+246	Tehnièko veleuèilište u Zagrebu	Polytechnic of Zagreb	Vrbik 8                                                     	10000	ZAGREB
+250	Pomorski fakultet, Split	"University of Split-Faculty of Maritime Studies"	Zrinsko-Frankopanska 38                                     	21000	SPLIT
+252	Hrvatski institut za povijest, podružnica Slavonski Brod	Croatian Institut of History-Section for Slavonia, Syrmia and Baranya	Ante Starèeviæa 8                                           	35000	SLAVONSKI BROD
+254	Centar za politološka istraživanja d.o.o, Zagreb	Center for Political Research LLC	Gupèeva 14a                                                 	10000	ZAGREB
+258	Sveuèilište u Splitu	University of Split	Livanjska 5                                                 	21000	SPLIT
+260	Akademija likovnih umjetnosti, Zagreb	University of Zagreb Academy of fine artists	Ilica 85                                                    	10000	ZAGREB
+264	Akademija dramske umjetnosti, Zagreb	University of Zagreb Academy of Dramatic Art	Trg maršala Tita 5                                          	10000	ZAGREB
+269	Sveuèilište u Zadru	University of Zadar	Ul. Mihovila Pavlinoviæa bb                                 	23000	ZADAR
+275	Sveuèilište u Dubrovniku	University of Dubrovnik	Branitelja Dubrovnika 29                                             	20000	DUBROVNIK
+277	Djeèja bolnica Srebrnjak	Children Hospital Srebrnjak	Srebrnjak 100                                               	10000	ZAGREB
+278	Psihijatrijska bolnica "Sveti Ivan" Zagreb	Psychiatric Hospital "Sveti Ivan" Zagreb	Jankomir 11                                                 	10000	ZAGREB
+282	Katolièki bogoslovni fakultet, Ðakovo	Josip Juraj Strossmayer University of Osijek - Catholic Faculty of Theology of D...	Petra Preradoviæa 17                                        	31400	ÐAKOVO
+285	Sveuèilište u Osijeku - Odjel za biologiju	Josip Juraj Strossmayer University of Osijek Department of Biology	Cara Hadrijana 8/A                                    	31000	OSIJEK
+286	Sveuèilište u Osijeku - Odjel za fiziku	Josip Juraj Strossmayer University of Osijek - Department of Physics	Trg Ljudevita Gaja 6                                        	31000	OSIJEK
+291	Sveuèilište u Osijeku - Odjel za kemiju	Josip Juraj Strossmayer University of Osijek - Department of Chemistry	Cara Hadrijana 8/a                                        	31000	OSIJEK
+292	Institut za istraživanje i razvoj održivih eko sustava	Institute for Research and Deevelopment of Sustainable Eco Systems	Jagodno 100a		VELIKA GORICA
+293	Arheološki muzej u Zagrebu	Archeological Museum in Zagreb	Trg Nikole Šubiæa Zrinskog 19                               	10000	ZAGREB
+303	Sveuèilište Jurja Dobrile u Puli	Juraj Dobrila university of Pula	Zagrebaèka ulica 30                                            	52100	PULA
+312	Sveuèilište u Zagrebu	The University of Zagreb	Trg maršala Tita 14	10000	ZAGREB
+315	Kineziološki fakultet, Split	University of Split Faculty of Kinesiology	Ulica Nikole Tesle 6	21000	SPLIT
+316	Sveuèilište u Rijeci - Odjel za fiziku	University Departement of Physics	Radmile Matejèiæ 2	51000	RIJEKA
+318	Sveuèilište u Rijeci - Odjel za informatiku	University Department of Information and Computer Science	Radmile Matejèiæ 2	51000	RIJEKA
+319	Sveuèilište u Rijeci - Odjel za matematiku	University Departement of Mathematics	Radmile Matejèiæ 2	51000	RIJEKA
+335	Sveuèilište u Rijeci - Odjel za biotehnologiju	University Department of Biotechnology	Radmile Matejèiæ 2	51000	RIJEKA
+12	Visoko gospodarsko uèilište, Križevci	College of Agriculture in Križevci	Milislava Demerca 1	48260	KRIŽEVCI
+123	Klinika za psihijatriju Vrapèe	Clinic for Psychiatry Vrapèe	Bolnièka cesta 32	10000	ZAGREB
+132	Nacionalna i sveuèilišna knjižnica	National and University Library	Hrvatske bratske zajednice 4	10000	ZAGREB
+133	PODRAVKA prehrambena industrija d.d. FC "Istraživanje i razvoj	PODRAVKA	Ante Starèeviæa 32	48000	KOPRIVNICA
+150	Hrvatska telekomunikacije		Andrije Hebranga 32-34	10000	ZAGREB
+161	Opæa bolnica Varaždin	General Hospital Varaždin	Ivana Meštroviæa bb	42000	VARAŽDIN
+163	Opæa bolnica Pula	General Hospital Pula	Negrijeva 6	52100	PULA
+176	Opæa bolnica Šibenik	Scientific Unit-General Hospital Šibenik	Stjepana Radiæa 83	22000	ŠIBENIK
+190	Filozofsko-teološki institut Družbe Isusove, Zagreb	Philosophical Theological Institute of the Society of Jesus	Jordanovac 110	10000	ZAGREB
+193	Institut prometa i veza, Zagreb	Institute of Transportation and Communications, Zagreb	Kušlanova 2	10000	ZAGREB
+206	Klinika za ortopediju Lovran	Orthopedic Clinic Lovran	Šetalište M. Tita 1	51415	LOVRAN
+208	Hrvatski zavod za transfuzijsku medicinu	Croatian Institute for Transfusion Medicine	Petrova 3	10000	ZAGREB
+217	Zdravstveno veleuèilište, Zagreb	Health Polytechnic	Mlinarska cesta 38	10000	ZAGREB
+220	Centar za klinièku primjenu neuroznanosti	Center for Clinical Implementation of Neurosciences	Šalata 10	10000	ZAGREB
+221	Hrvatski hidrografski institut	Hydrographic Institute of the Republic of Croatia	Zrinsko Frankopanska 161	21000	SPLIT
+223	Poliklinika Aviva	Medical Centre Aviva	Nemetova 2	10000	ZAGREB
+228	Opæa bolnica Zabok	General Hospital Zabok	Braèak 8	49210	ZABOK
+230	Klinièki bolnièki centar Rijeka	Clinical Center Rijeka	Krešimirova 42	51000	RIJEKA
+248	Veleuèilište u Karlovcu	Polytechnic of Karlovac	Ivana Meštroviæa 10	47000	KARLOVAC
+255	Zagrebaèka škola ekonomije i managementa, Zagreb	Zagreb School of Economics and Management	Jordanovac 110	10000	ZAGREB
+256	Opæa bolnica Karlovac	General Hospital Karlovac	Andrije Štampara 3	47000	KARLOVAC
+271	Visoko evanðeosko teološko uèilište, Osijek	Evangelical Theological Seminary	Cvjetkova 32, p.p.370	31000	OSIJEK
+272	Mediteranski institut za istraživanje života	Mediterranean Institute for Life Sciences	Meštroviæevo šetalište 45	21000	SPLIT
+273	OIKON d.o.o.	OIKON Ltd-Institute for Applied Ecology	Trg senjskih uskoka 1	10000	ZAGREB
+279	SMS-Prehrambeno razvojni centar	SMS-Food Development Centre	Kurtoviæi bb	21000	SPLIT
+288	Opæa županijska bolnica Požega	County General Hospital Požega	Osjeèka 107	34000	POŽEGA
+289	PLIVA HRVATSKA d.o.o.	PLIVA CROATIA Ltd.	Prilaz baruna Filipoviæa 25	10000	ZAGREB
+290	Fidelta d.o.o.	Fidelta Ltd. for research and development	Prilaz baruna Filipoviæa 29	10000	ZAGREB
+300	Institut za informatièke inovacije, Sveti Križ Zaèretje	Institute for Informatical Innovation	Aleja Lavoslava Vukeliæa 2, Sveti Križ Zaèretje	49223	SVETI KRIŽ ZAÈRETJE
+309	GENOS d.o.o.	GENOS Ltd for Assessment and Analysis	Trg Ljudevita Gaja 6, Osijek	31000	OSIJEK
+317	Sveuèilište u Rijeci	University of Rijeka	Trg braæe Mažuraniæa 10	51000	RIJEKA
+320	NOVATECH d.o.o.	NOVATECH d.o.o.	Štefanoveèka 10/6, Zagreb	10000	ZAGREB
+323	Genera d.d.	Genara Inc.	Svetonedjeljska 2	10 436	Kalinovica
+324	Opæa bolnica Dubrovnik	Hospital Dubrovnik	Dr. Roka Mišetiæa 2	20000	DUBROVNIK
+327	Nacionalni centar	National Centre for External Valuation of Education	Petraèiæeva 4	10000	ZAGREB
+329	DIU Libertas meðunarodno sveuèilište, Zagreb	DIU Libertas International University	Trg J. F. Kennedy 6b	10000	ZAGREB
+331	Hrvatsko katolièko sveuèilište, Zagreb	Croatian Catholic University	Ilica 242	10000	ZAGREB
+332	Institut za istraživanje	Institute of Researches and Development of Defense Systems	ILICA 256B, Zagreb	10000	ZAGREB
+337	Specijalna bolnica za ortopediju i opæu kirurgiju "Dr. Nemec", Matulji	Special Hospital for Orthopedics and General Surgery "Dr. Nemec"	Ul. Dalmatinskih brigada bb, Matulji	51211	MATULJI
+338	Akademija tehnièkih znanosti	Croatian Academy of Engineering	Andrije Kaèiæa Miošiæa 28	10000	ZAGREB
+339	Specijalna bolnica Svjetlost	University Eye Hospital Svjetlost	Heinzelova 39	10000	ZAGREB
+341	InfoDom d.o.o.	InfoDom LLC for Telematics, Trade and Construction	A. Žaje 61, Zagreb	10000	ZAGREB
+348	Specijalna bolnica Sv. Katarina	St. Catherine Speciality Hospital	Braèak 8	49210	ZABOK
+349	Thalassoterapia Opatija	Thalassotherapia Opatija - Hospital for medical rehabiltation of patients with c...	Maršala Tita 188/1	51410	OPATIJA
+351	Fakultet zdravstvenih studija u Rijeci	University of Rijeka, Faculty of Health Sciences	Viktora Cara Emina 5	51000	RIJEKA
+352	Klinika za djeèje bolesti	Children s Hospital Zagreb	Klaiæeva 16	10000	ZAGREB

@@ -1,0 +1,7 @@
+Sifra_podrucja	NazivHR	NazivEN
+1.00      	Prirodne znanosti	natural science
+2.00      	Tehnièke znanosti	technical science
+3.00      	Biomedicina i zdravstvo	biomedicine and health care
+4.00      	Biotehnièke znanosti	biotechnical science
+5.00      	Društvene znanosti	social science
+6.00      	Humanistièke znanosti	humanics
