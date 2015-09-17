@@ -1,0 +1,31 @@
+
+NAKON POJEDINACNOG INSERTA SVAKOG FILEA U BAZU
+ 
+INSERT INTO `MERGED`(reference, acronym, title, fs) SELECT reference, acronym, title, "FP7" FROM FP7;
+
+INSERT INTO `MERGED`(reference, acronym, title, fs) SELECT Reference, Acronym, Title, "H2020" FROM H2020;
+
+INSERT INTO `MERGED`(reference, acronym, title, fs, leader) SELECT CONCAT(CASE HRZZ.programme 
+    WHEN "Istraživački projekti" THEN 'IP'
+    WHEN "Uspostavni istraživački projekti" THEN 'UIP'
+    WHEN "Partnerstvo u istraživanjima" THEN 'PUI'
+    END,"-",HRZZ.call,"-",HRZZ.id), HRZZ.acronym, CONCAT(HRZZ_EN.title," (",HRZZ.title,")"), "HRZZ", HRZZ.leader FROM HRZZ JOIN HRZZ_EN ON HRZZ.id = HRZZ_EN.id;
+
+INSERT INTO `MERGED`(reference, title, fs, leader) SELECT Broj_projekta,  CONCAT(Naziv_projekta_EN, " (", Naziv_projekta_HR, ")"), "MZOS", CONCAT(Glavni_ime, " ", Glavni_prezime) FROM MZOS;
+
+
+
+
+OPEN AIRE TSV
+
+SELECT Broj_projekta as PROJECT_IDENTIFIER, Naziv_projekta_EN as PROJECT_TITLE, "Ministry of Science, Education and Sport, MSES" as FUNDER_NAME, Godina_pocetka as START_DATE, Godina_zavrsetka as END_DATE, USTANOVE.naziv_ust_EN as ORGANIZATION_INVOLVED 
+FROM `MZOS` JOIN USTANOVE ON MZOS.Sifra_ustanove = USTANOVE.irl
+
+SELECT CONCAT(CASE HRZZ.programme WHEN "Istraživački projekti" THEN "IP"
+    WHEN "Uspostavni istraživački projekti" THEN "UIP"
+    WHEN "Partnerstvo u istraživanjima" THEN "PUI"
+    END,"-",HRZZ.call,"-",HRZZ.id) as PROJECT_IDENTIFIER, HRZZ_EN.title as PROJECT_TITLE, "Croatian Science Foundation, CSF" as FUNDER_NAME, 
+    STR_TO_DATE(SUBSTRING_INDEX(HRZZ.duration, "-", 1), "%d.%m.%Y") as START_DATE, 
+    STR_TO_DATE(SUBSTRING_INDEX(HRZZ.duration, "-", -1), "%d.%m.%Y") as END_DATE, HRZZ.institution as ORGANIZATION_INVOLVED 
+    FROM HRZZ_EN
+    JOIN HRZZ_EN ON HRZZ.id = HRZZ_EN.id

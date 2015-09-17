@@ -3,7 +3,7 @@ ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
 error_reporting(-1); 
 
-header('Access-Control-Allow-Origin: https://medlib.mef.hr');  //I have also tried the * wildcard and get the same response
+    header('Access-Control-Allow-Origin: https://medlib.mef.hr');  //I have also tried the * wildcard and get the same response
     //header("Access-Control-Allow-Credentials: true");
     header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
     header('Access-Control-Max-Age: 1000');
