@@ -1,7 +1,7 @@
 <?php 
 
 
-    $db = new PDO('mysql:host=localhost;dbname=projekti;charset=utf8', 'projekti', 'ooPoo4ie');
+    $db = new PDO('mysql:host='.host.';dbname='.dbname.';charset='.charset, user, pass);
     $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
     $stmt = $db->prepare('SELECT MZOS.Broj_projekta as PROJECT_IDENTIFIER, MZOS.Naziv_projekta_EN as PROJECT_TITLE, 
                                       "Ministry of Science Education and Sport, MSES" as FUNDER_NAME, MZOS.Godina_pocetka as START_DATE, 

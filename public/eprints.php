@@ -29,8 +29,8 @@ header('Access-Control-Allow-Origin: https://medlib.mef.hr');  //I have also tri
         $start = microtime();
         
         
-
-        $db = new PDO('mysql:host=localhost;dbname=projekti;charset=utf8', 'projekti', 'ooPoo4ie');
+        require_once('config.php');
+        $db = new PDO('mysql:host='.host.';dbname='.dbname.';charset='.charset, user, pass);
         $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
         $stmt = $db->prepare("SELECT * FROM MERGED WHERE reference LIKE CONCAT('%', :string1, '%') OR acronym LIKE CONCAT('%', :string2, '%') OR title LIKE CONCAT('%', :string3, '%') LIMIT 25");
 		$stmt->bindParam(':string1', $string, PDO::PARAM_INT);
